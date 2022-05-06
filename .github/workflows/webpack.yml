@@ -1,0 +1,54 @@
+#name:[<go-README,md>] 
+
+#name:/<h6/> on: in/offset GIT / fx #img poly FF0000 line  1IMGFX
+
+
+
+on: matrix 
+
+push: wf/com.workflowy.adminsdk/m/#/
+    ! -
+    ! -- 
+    ! ---
+    branches 
+    !
+     [ main for view stream pt$ ]
+  pull_request : 
+
+  
+  stream: $" 1141275 $
+   
+branches: [ main if view content +pt$ ]
+
+jobs: NNN comm
+
+build:   <cmd.fm/to.8k6d> && Twatquaters.info(thus)   
+
+runs-on: ubuntu-latest ? web ? android ? 
+
+strategy: marketing !! advertise !! blogspot !! 
+             
+-matrix: 480
+
+-matrix: 490
+
+-matrix: 415
+
+-matrix: 451
+      matrix: 461
+      matrix: 416
+      
+        node-version: [6×4/4 %8\8+1 ((9 ↔↔↔↔↔ c + 1b ↔↔↔↔↔×9)]
+    
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Build
+      run: |
+        npm install
+        npx webpack
